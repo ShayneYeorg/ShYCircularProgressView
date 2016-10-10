@@ -13,6 +13,7 @@
 		34C400881DA93EEC009CE054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C400861DA93EEC009CE054 /* Main.storyboard */; };
 		34C4008A1DA93EEC009CE054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C400891DA93EEC009CE054 /* Assets.xcassets */; };
 		34C4008D1DA93EEC009CE054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C4008B1DA93EEC009CE054 /* LaunchScreen.storyboard */; };
+		34C400961DAB2892009CE054 /* ShYCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C400951DAB2892009CE054 /* ShYCircularProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		34C400891DA93EEC009CE054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34C4008C1DA93EEC009CE054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34C4008E1DA93EEC009CE054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C400941DAB2892009CE054 /* ShYCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShYCircularProgressView.h; sourceTree = "<group>"; };
+		34C400951DAB2892009CE054 /* ShYCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShYCircularProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				34C400811DA93EEC009CE054 /* AppDelegate.m */,
 				34C400831DA93EEC009CE054 /* ViewController.h */,
 				34C400841DA93EEC009CE054 /* ViewController.m */,
+				34C400941DAB2892009CE054 /* ShYCircularProgressView.h */,
+				34C400951DAB2892009CE054 /* ShYCircularProgressView.m */,
 				34C400861DA93EEC009CE054 /* Main.storyboard */,
 				34C400891DA93EEC009CE054 /* Assets.xcassets */,
 				34C4008B1DA93EEC009CE054 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				34C400851DA93EEC009CE054 /* ViewController.m in Sources */,
 				34C400821DA93EEC009CE054 /* AppDelegate.m in Sources */,
 				34C4007F1DA93EEC009CE054 /* main.m in Sources */,
+				34C400961DAB2892009CE054 /* ShYCircularProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +313,7 @@
 				34C400931DA93EEC009CE054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
