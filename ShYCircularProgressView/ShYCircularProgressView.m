@@ -23,9 +23,11 @@
 
 #pragma mark - Public
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
+- (id)initWithFrame:(CGRect)frame {
+    CGRect actualFrame = frame;
+    actualFrame.size.height = actualFrame.size.width * 0.75;
+    
+    self = [super initWithFrame:actualFrame];
     if (self) {
         self.backgroundColor = [UIColor clearColor];
     }
@@ -149,7 +151,7 @@
 
 - (UIColor *)backTrackColor {
     if (!_backTrackColor) {
-        _backTrackColor = [UIColor colorWithRed:((11) / 255.0) green:((114) / 255.0) blue:((188) / 255.0) alpha:1.0]; //默认颜色
+        _backTrackColor = [UIColor colorWithRed:((200) / 255.0) green:((200) / 255.0) blue:((200) / 255.0) alpha:1.0]; //默认颜色
         
     }
     return _backTrackColor;
@@ -157,7 +159,7 @@
 
 - (UIColor *)progressTrackColor {
     if (!_progressTrackColor) {
-        _progressTrackColor = [UIColor colorWithRed:((136) / 255.0) green:((231) / 255.0) blue:((60) / 255.0) alpha:1.0]; //默认颜色
+        _progressTrackColor = [UIColor colorWithRed:((0) / 255.0) green:((0) / 255.0) blue:((0) / 255.0) alpha:1.0]; //默认颜色
     }
     return _progressTrackColor;
 }
